@@ -1,29 +1,68 @@
-# GEMINI_AI_CHAT_BOT
-This is a teminal based chatbot created with the help of gemini api key
-install latest version of python ide orpython on cli(camand prompt/powershell) from python website (https://www.python.org)
-dowmload main.py from this reposetory
-To create your api key go to google ai studio(https://aistudio.google.com) log in with your gmail id and create an api key and replace "myapikey" with your api key in doumloded main.py file before running it.
-
-instructions & requirements
 # Gemini AI CLI Chatbot
 
-## Prerequisites
+This is a terminal-based chatbot created with the help of a Gemini API key. It allows you to have real-time conversations with the AI directly from your command prompt or powershell.
 
-Before running the chatbot, ensure you have the following installed and configured:
+---
+
+## Instructions & Requirements
 
 ### 1. Python Installation
-You need Python 3.9 or higher. Download and install the latest version from the official website:
-[Download Python] (https://www.python.org)
+You need to install the latest version of Python. Download it from the official Python website:
+https://www.python.org
 
-> **Note for Windows Users:** During installation, make sure to check the box that says **"Add Python to PATH"** so you can run python commands from any command prompt.
+During installation on Windows, make sure to check the box that says "Add Python to PATH" so you can run Python commands from your command prompt.
 
 ### 2. Install the Google GenAI SDK
-The chatbot requires the official Google Generative AI library. Open your terminal (Command Prompt, PowerShell, or Terminal on macOS/Linux) and run:
+The chatbot requires the official Google Generative AI library. Open your command prompt or powershell and run:
+
+```cmd
 pip install google-generativeai
-if error is shown with
 
-pip install google-generativeai
+```
 
-If you get an error saying pip is not recognized, it usually means Python wasn't added to your system path during installation. You can fix that easily by typing:
+If you get an error saying "pip is not recognized", it means Python wasn't added to your system path during installation. You can fix that easily by typing:
 
+```cmd
 python -m pip install google-generativeai
+
+```
+
+### 3. Get a Gemini API Key
+
+To create your API key, go to Google AI Studio:
+https://aistudio.google.com
+
+Log in with your Gmail ID, create a new API key, and copy it.
+
+---
+
+## Setup & Execution
+
+1. Download the `main.py` file from this repository.
+2. Open the downloaded `main.py` file and locate the placeholder text `"myapikey"`.
+3. Replace `"myapikey"` with your actual Gemini API key and save(ctrl+s) before running it.
+
+### Ways to Run / Execute the Script
+
+#### Method 1: From the CLI (Command Prompt / PowerShell)
+
+1. Open your command prompt or powershell.
+2. Navigate to the folder where you downloaded `main.py` using the `cd` command:
+
+```cmd
+   cd path/to/your/folder
+
+```
+
+3. Run the script by typing:
+
+```cmd
+   python main.py
+
+```
+
+#### Method 2: From Python IDLE
+
+1. Open the file in Python IDLE.
+2. Click on the "Run" tab in the top menu.
+3. Select "Run Module" (or simply press F5 on your keyboard).
